@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* section box */
+.container{
+    /* width: 100vw; */
+    /* display: flex;
+    height: 100vh;
+    background-color:white;
+    flex-direction: column; */
+}
+
+ /* .div{
+    width: 1200px;
+
+} */
+
+.box{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 350px;
+    background-color: rgb(45, 5, 45);
+    background: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* padding-left: 50px; */
+
+}
+
+
+.empty{
+    /* width: 100vw; */
+    height: 240px;
+    background-color: rgb(126, 93, 93);
+}
+.box h3{
+    font-size: xx-large;
+}
+
+.box p{
+    font-size: x-small;
+    margin: 10px 0;
+}
+
+/* TableFooter */
+.container .tablefooter{
+    /* padding-left: 200px; */
+    border: 2px solid black;
+    /* width: 100vw; */
+
+   
+}
+
+ .tablefooter .boxfooter{
+
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    justify-content: space-around;
+    height: 200px;
+    /* padding-left: 100px; */
+    border: 1px solid black;
+}
+ 
+   .box1{
+    padding-top: 12px;
+    padding-left: 200px; 
+    background-color: aqua;
+    width: 7vw;
+    height: 140px;
+    border-radius: 5px;
+}
+.box1 div{
+    padding-top: 5px;
+}
+.box1 div img{
+    width: 15px;
+}
+
+.box2{
+    padding-left: 300px;
+    background-color: white;
+    padding-left: 90px;
+    width: 20vw;
+    height: 140px;
+    border-radius: 5px;  
+}
+.box2 div h6{
+    color: orange;
+}
+
+.box4 {
+    padding-left: 300px;
+    /* width: 20vw;
+    height: 104px; */
+
+}
+
+
+/* currency */
+
+form {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-right: 30px;
+    
+}
+form .form-select{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    
+}
+form div img{
+    padding-right: 20px;
+
+}
+form .of {
+    padding-right: 30px;
+}
+
+
+
+
+
