@@ -1,5 +1,6 @@
 import image3 from '../image/SVG.png'
 import image4 from '../image/SVG (1).png'
+import image5 from '../imag(5).png'
 
 const Currency = () => {
   return (
@@ -13,8 +14,9 @@ const Currency = () => {
     
   <button type="button" className="btn btn-primary">
     <img src={image4} alt="" />
-    Send</button>
-  <button type="button" className="btn btn-primary">Graphics</button>
+  <button type="button" className="btn btn-primary">
+    <img src={image5} alt="" />Send</button>
+    Graphics</button>
   <button type="button" className="btn btn-primary">Alert</button>
 </div>
    
